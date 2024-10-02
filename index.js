@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(
 	cors({
-	  origin: ["https://login-signup-frontend-sigma.vercel.app/"],
+	  origin: ["https://practice-frontend-ochre.vercel.app"],
 	  methods: ["GET", "POST", "PUT", "DELETE"],
 	  credentials: true,
 	  allowedHeaders: ["Content-Type", "Authorization"],
